@@ -1,0 +1,21 @@
+body{
+    /* background-color: aqua;
+    background-image: url(blue_background.jpg);
+    background-attachment: fixed; */
+
+   
+
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.gradient{
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.gradient2{
+    background-image: radial-gradient(red, yellow, green);
+}
