@@ -4,12 +4,13 @@
     border: solid 1px;
 }
 
-.table2 th{
+.table2 thead th{
     border: solid 1px;
 }
 
 
-.table2 thead td{
+
+.table2 tboody td{
     width: 120px;
     height: 80px;
     border: solid 1px;
@@ -19,4 +20,31 @@
     width: 120px;
     height: 30px;
     background-color: green;
+}
+
+.table3{
+    width: 800px;
+    height: 500px;
+    border: solid 1px;
+}
+
+.table3 td{
+    border: solid 1px;
+}
+
+
+
+
+.table4{
+    width: 1000px;
+    height: 500px;
+    border: solid 1px;
+}
+
+.table4 td{
+    border: solid 1px;
+}
+
+.table4 thead td{
+    height: 125px;
 }
