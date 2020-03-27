@@ -9,7 +9,7 @@
 }
 
 
-.table2 td{
+.table2 thead td{
     width: 120px;
     height: 80px;
     border: solid 1px;
