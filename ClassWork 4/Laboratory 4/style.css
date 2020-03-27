@@ -10,7 +10,7 @@
 
 
 
-.table2 tboody td{
+.table2 tbody td{
     width: 120px;
     height: 80px;
     border: solid 1px;
@@ -19,8 +19,13 @@
 .table2 tfoot td{
     width: 120px;
     height: 30px;
+    border: solid 1px;
     background-color: green;
 }
+
+
+
+
 
 .table3{
     width: 800px;
