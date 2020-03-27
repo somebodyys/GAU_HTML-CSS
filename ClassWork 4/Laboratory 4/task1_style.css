@@ -1,0 +1,14 @@
+.table1 td{
+    width: 200px;
+    height: 35px;
+    border: solid 1px;
+
+}
+
+.table1{
+    width: 1000px;
+    height: 500px;
+    border: solid 1px;
+    margin: auto;
+
+}
