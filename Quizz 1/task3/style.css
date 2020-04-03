@@ -1,0 +1,10 @@
+
+table{
+    margin: auto;
+    width: 600px;
+}
+table td{
+    border: solid 8px blue; 
+    width: 80px;
+    height: 100px;
+}

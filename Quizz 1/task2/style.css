@@ -1,0 +1,26 @@
+.box1{
+
+    margin: auto;
+    width: 700px;
+    height: 127px;
+    border-right: none;
+    border-top: solid 5px yellow;
+    border-bottom: solid 5px yellow;
+    border-left: solid 5px green;
+}
+
+.text1{
+    color: blue; 
+    font-size: 7em; 
+    font-style: italic; 
+    text-decoration: underline line-through; 
+    background-color: red;
+
+}
+
+.box2{
+    margin: auto;
+    border: dotted 5px green;
+    width: 700px;
+    height: 20px;
+}
