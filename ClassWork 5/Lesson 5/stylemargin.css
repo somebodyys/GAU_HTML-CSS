@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    width: 100%;
+    border: solid 5px green;
+}
+
+.marginEx2{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: none;
+    margin-left: 300px;
+}
