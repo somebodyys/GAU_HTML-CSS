@@ -25,11 +25,16 @@
 }
 
 .bg_content {
+
+    display: flex;
     z-index: 1;
-    height: 350px;
+    height: 250px;
     background: url(Photos/1.jpg);
     position: sticky;
-    top: -280px;
+    top: -178px;
+    justify-items: center;
+    align-content: center;
+
 }
 
 a {
@@ -46,33 +51,34 @@ a {
 
 }
 
-.recomended div{
+.recomended div {
     background-color: rgba(0, 0, 0, .1);
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     font-size: 20px;
 }
 
 .info {
-    
+
     margin: 10px;
     text-align: center;
     flex-grow: 1;
 
 }
-.recomended img{
+
+.recomended img {
     width: 280px;
-    
 }
 
-.news{
-    
+.news {
+
     background-color: rgba(0, 0, 0, .1);
     width: unset;
     text-align: left;
     text-indent: 50px;
-    padding: 10px;    
+    padding: 10px;
 }
-.news img{
+
+.news img {
     width: 562px;
     float: right;
 }
