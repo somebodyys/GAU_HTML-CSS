@@ -1,0 +1,83 @@
+.min_menu {
+
+    z-index: 2;
+    display: flex;
+    height: 50px;
+    width: 1333px;
+    background-color: rgba(0, 0, 0, .4);
+    position: fixed;
+    top: 8px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.min_menu div {
+    width: 190px;
+    height: 25px;
+    background-image: linear-gradient(to bottom, rgba(18, 204, 179, 0.5), rgba(255, 255, 255, .5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: honeydew;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+
+.bg_content {
+    z-index: 1;
+    height: 350px;
+    background: url(Photos/1.jpg);
+    position: sticky;
+    top: -280px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recomended {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recomended div{
+    background-color: rgba(0, 0, 0, .1);
+    margin-bottom: 20px; 
+    font-size: 20px;
+}
+
+.info {
+    
+    margin: 10px;
+    text-align: center;
+    flex-grow: 1;
+
+}
+.recomended img{
+    width: 280px;
+    
+}
+
+.news{
+    
+    background-color: rgba(0, 0, 0, .1);
+    width: unset;
+    text-align: left;
+    text-indent: 50px;
+    padding: 10px;    
+}
+.news img{
+    width: 562px;
+    float: right;
+}
+
+.main_content {
+    display: flex;
+    background-color: lightgrey;
+}
