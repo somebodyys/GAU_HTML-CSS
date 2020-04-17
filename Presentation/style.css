@@ -77,8 +77,10 @@ a {
 }
 
 .news img {
+
     width: 562px;
     float: right;
+    margin: 10px;
 }
 
 .main_content {
