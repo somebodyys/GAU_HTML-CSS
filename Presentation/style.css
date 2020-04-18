@@ -95,6 +95,7 @@ a {
 
 .news {
     
+    margin-bottom: 20px;
     background-color: rgba(0, 0, 0, .1);
     width: unset;
     text-align: left;
