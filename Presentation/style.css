@@ -98,8 +98,8 @@ a {
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, .1);
     width: unset;
-    text-align: left;
-    text-indent: 50px;
+    text-align: justify;
+    text-indent: 20px;
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
