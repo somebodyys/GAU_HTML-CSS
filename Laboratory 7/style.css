@@ -51,7 +51,10 @@ nav div:hover{
     background-image: linear-gradient(to top,rgb(93, 156, 93), lightgreen);
 }
 
-
+article{
+    width: 1000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .content{
     margin: auto;
     width: 848px;
@@ -66,7 +69,6 @@ nav div:hover{
 
 .main{
     display: flex;
-
     min-height: 500px;
     margin-top: 20px;
 }
@@ -113,9 +115,53 @@ footer{
     flex-direction: column;
 }
 
+.pos_image{
+    width: 200px;
+    margin: 10px;
+}   
 .fast_nav{
     display: flex;
     width: 400px;
     justify-content: space-between;
     color: lightsalmon;
+}
+
+.table1 td, th{
+    width: 250px;
+    text-align: left;
+}
+
+.table1 td{
+    background-color: lightgray;
+}
+
+.table1 table{
+   border-collapse: collapse;
+}
+
+
+.table1 th {
+    background-color: rgb(53, 53, 53);
+}
+
+.form_box{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    flex-direction: column;
+}
+
+.inner_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_but{
+
+    background-color: rgb(53, 53, 53);
+    align-self: flex-end;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border: none;
 }
