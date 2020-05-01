@@ -1,0 +1,17 @@
+.box{
+
+    margin: auto;
+    width: 700px;
+    height: 55px;
+    border: solid 3px red;
+    background-color: orange;
+    color: red;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-shadow: 2px 2px rgba(255, 255, 255, .5);
+
+}

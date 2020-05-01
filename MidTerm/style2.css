@@ -1,0 +1,34 @@
+.starter{
+    font-size: 2em;
+    color: red;
+}
+
+
+.red_italic{
+
+    font-style: italic;
+    text-decoration: underline;
+    color: red;
+}
+
+.conteiner{
+    width: 1000px;
+    min-height: 200px;
+    background-color: lightblue ;
+    margin: auto;
+    padding: 20px;
+    border: solid 1px black;
+}
+
+img{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.gre_bol{
+    color: green;
+    font-weight: bold;
+}

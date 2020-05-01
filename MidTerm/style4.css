@@ -1,0 +1,52 @@
+.conteiner{
+    position: relative;
+    height: 600px;
+    width: 1000px;
+    background-color: lightblue;
+    margin: auto;
+
+}
+
+.box1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    background-color: red;
+}
+.box2{
+    position: absolute;
+    right: 0px;
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    background-color: yellow;
+}
+.box3{
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    background-color: green;
+}
+.box4{
+    
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    background-color: blue;
+}
+.box5{
+
+    position: absolute;
+    top: 223px;
+    left: 410px;
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    background-color: gray;
+}
