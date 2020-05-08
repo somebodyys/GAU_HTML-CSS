@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td rowspan="3" style="text-align: center;">
+                    <input type="text" placeholder="Name" class="texts">
+                    <br>
+                    <input type="email" placeholder="Email" class="texts">
+                    <br>
+                    <input type="phone" placeholder="Phone Number" class="texts">
+    
+                    <textarea cols="30" rows="10" placeholder="specialnotes, concerns, or requments" class="texts"></textarea>
+                </td>
+                <td class="right_box">
+                    <h4 style="color: black;">What is the Best way to reach you?</h4>
+                    <input type="radio" id="Phone" name="contact">
+                    <label for="Phone">Phone</label>
+                    <br>
+                    <input type="radio" id="email" name="contact">
+                    <label for="email">Email</label>
+                </td>
+            </tr>
+            <tr>
+                
+                <td style="color: lightgreen;">
+                    <h4 style="color: black;">Days of week available for appointment:</h4>
+                    <input type="checkbox" id="Monday">
+                    <label for="Monday">Monday</label>
+                    <br>
+                    <input type="checkbox" id="Tuesday">
+                    <label for="Tuesday">Tuesday</label>
+                    <br>
+                    <input type="checkbox" id="Wednesday">
+                    <label for="Wednesday">Wednesday</label>
+                    <br>
+                    <input type="checkbox" id="Thursday">
+                    <label for="Thursday">Thursday</label>
+                    <br>
+                    <input type="checkbox" id="Friday">
+                    <label for="Friday">Friday</label>
+                </td>
+            </tr>
+            <tr>
+                
+                <td style="color: lightgreen;">
+                    <h4 style="color: black;">Best Time For your Appointment:</h4>
+                    <input type="checkbox" id="Morning">
+                    <label for="Morning">Morning</label>
+                    <br>
+                    <input type="checkbox" id="Afternoon">
+                    <label for="Afternoon">Afternoon</label>
+                </td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                <td colspan="2" class="appointment">
+                    <input class="appointment_but" type="submit" value="Request My Appointment">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
