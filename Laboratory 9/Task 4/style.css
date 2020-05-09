@@ -1,0 +1,210 @@
+
+@font-face{
+    font-family: Felix;
+    src: url(Fonts/FELIXTI.TTF);
+
+}
+
+@font-face{
+    font-family: Bell;
+    src: url(Fonts/BELL.TTF);
+}
+body{
+    margin: 0;
+}
+.note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1366px;
+    height: 30px;
+    background-color: #f6cfb2;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_box{
+    width: 1366px;
+    height: 100px;
+    background-color: #00ab84;
+    display: flex;
+    justify-content: space-around;
+    font-family: Felix;
+    letter-spacing: 3px;
+}
+.Logo{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+.cover{
+    width: 1366px;
+    height: 300px;
+    background-image: url(photos/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.check{
+    width: 30px;
+    height: 30px;
+    border: solid 1px gray;
+    border-radius: 2px;
+
+}
+.check:hover{
+    background-color: #00ab84;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, .6);
+    font-family: Felix;
+    font-size: 3.7em;
+}
+
+.account{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_but{
+    min-width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav_but:hover{
+    border-bottom: solid 1px black;
+}
+
+.main{
+    margin-top: 30px;
+    width: 1366px;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Felix;
+}
+
+.filter{
+    width: 350px;
+}
+.new{
+    width: 900px;
+}
+
+.filter_box{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.filter_box td{
+    width: 200px;
+}
+
+.new_name{
+    padding: 5px;
+    font-weight: bold;
+    width: 880px;
+    border-bottom: solid 1px #2d2a24;
+    letter-spacing: 7px;
+}
+
+.filter_box table{
+    margin-top: 20px;
+}
+
+.news_box{
+    margin-top: 20px;
+    padding: 5px;
+    width: 880px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.pic1{
+    width: 270px;
+    height: 300px;
+    background-image: url(photos/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    
+}
+
+.pic2{
+    width: 270px;
+    height: 300px;
+    background-image: url(photos/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    
+}
+.pic3{
+    width: 270px;
+    height: 300px;
+    background-image: url(photos/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 25px;
+    background-color: #f6cfb2;
+    margin-bottom: 10px;
+
+}
+
+
+
+.content_box{
+    width: 270px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_box:hover{
+    background-color: rgb(240, 238, 238);
+}

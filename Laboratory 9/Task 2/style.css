@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+form{
+    margin: auto;
+    width: 700px;
+    min-height: 600px;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+input, textarea{
+    margin-left: 45px;
+    width: 550px;
+    height: 50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 1px lightgray;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 150px;
+    resize: none;
+}
+
+.head{
+    font-size: 2em;
+}
