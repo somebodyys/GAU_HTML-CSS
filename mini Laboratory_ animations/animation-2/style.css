@@ -1,0 +1,33 @@
+@keyframes animation{
+    0% {top: 540px; left: 0px;}
+    12.5% {top: 540px; left: 540px;}
+    25% {top: 280px; left: 540px;}
+    37.5% {top: 0px; left: 280px}
+    50% {top: 280px; left: 0px;}
+    62.5% {top: 280px; left: 540px;}
+    75% {top: 540px; left: 0px;}
+    87.5% {top: 280px; left: 0px;}
+    100% {top: 540px; left: 540px;}
+
+
+}
+
+.conteiner{
+    width: 600px;
+    height: 600px;
+    border: solid 1px gray;
+    margin: auto;
+    position: relative;    
+}
+
+.object{
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+}

@@ -1,0 +1,28 @@
+@keyframes animation{
+    0% {left: 0px; top: 0px;}
+    20% {left: 800px; top: 0px;}
+    40% {left: 800px; top: 500px;}
+    60% {left: 0px; top: 500px;}
+    80% {left: 0px; top: 0px;}
+    100% {left: 800px; top: 500px;}
+}
+
+
+.conteiner{
+    width: 900px;
+    height: 600px;
+    border: solid 1px gray;
+    margin: auto;
+    position: relative;
+}
+
+
+.object{
+    animation-name: animation;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
