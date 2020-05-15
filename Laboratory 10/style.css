@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.logo img{
+    width: 50px;
+}
+.login{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 30px;
+    right: 0px;
+    color: white;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login div{
+    padding: 20px;
+}
+
+.login div:hover{
+    
+    cursor: pointer;
+    border-bottom:solid 1px gray;
+}
+.logo_text{
+    font-size: 35px;
+    background: -webkit-linear-gradient(gray, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.logo_text1{
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    margin-left: 65px;
+}
+
+.conteiner{
+    background-color: white;
+    border-radius: 15px;
+    width: 1100px;
+    min-height: 1000px;
+    margin: auto;
+}
+
+header{
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: lightgreen;
+    width: 1100px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.cover{
+    width: 1100px;
+    height: 300px;
+    background-image: url(Photos/asphalt-8-airborne-android.jpg);
+    background-size: cover;
+    background-position: 0px -135px;
+}
