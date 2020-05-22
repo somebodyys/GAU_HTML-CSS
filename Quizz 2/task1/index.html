@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center">Survay Form</h1>
+    <div class="conteiner">
+        <form>
+            
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align: center;">Let Us know we can improve free code camp</td>
+                </tr>
+                <tr>
+                    <td class="names">
+                        <label for="name">'Name'</label>
+                    </td>
+                    <td class="boxes">
+                        <input type="text" placeholder="Enter your name" class="texts">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="names">
+                        <label for="Email">'Email'</label>
+                    </td>
+                    <td class="boxes">
+                        <input type="email"  placeholder="Enter your Email" class="texts">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="names">
+                        <label for="Age">'Age'</label>
+                    </td>
+                    <td class="boxes">
+                        <input type="number" placeholder="Age" class="texts">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="names">
+                        <label for="role">Which Option best Describes your current role?</label>
+                    </td>
+                    <td class="boxes">
+                        <select name="option" id="op">
+                            <option value="Student">Student</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="names">
+                        <label for="receomend">How likely is that you would  recommend freeCodeCamp to a friend?</label>
+                    </td>
+                    <td class="boxes">
+                        <input type="radio" id="definitely" name="recomended" value="Definitely">
+                        <label for="definitely">Definitely</label>
+                        <br>
+                        <input type="radio" id="maby" name="recomended" value="Maby">
+                        <label for="maby">Maby</label>
+                        <br>
+                        <input type="radio" id="notsure" name="recomended" value="Not Sure">
+                        <label for="notsure">Not Sure</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="names">
+                        <label for="like">What do you like Most in FCC:</label>
+                    </td>
+                    <td class="boxes">
+                        <select name="fcc" id="fcc">
+                            <option value="select">Select an option</option>
+                            <option value="cool">It's cool</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="names">
+                        <label for="improve">Things that should be improved in the future</label>
+                        (check all that apply)
+                    </td>
+                    <td class="boxes">
+                        <input type="checkbox" value="front_end" id="front_end">
+                        <label for="front_end">Front-end Projects</label>
+                        <br>
+                        <input type="checkbox" id="back">
+                        <label for="back">Back-end Projects</label><br>
+                        <input type="checkbox" id="data">
+                        <label for="data">Data Visualisation</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" class="sub">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
