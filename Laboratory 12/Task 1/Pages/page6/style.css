@@ -1,0 +1,45 @@
+.conteiner{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+[class*="box"]{
+    border-radius: 10px;
+    border: solid 1px gray;
+    height: 66.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: gray;
+}
+.rows{
+    width: 1000px;
+    height: 66.6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1{
+    width: 323.3px;
+}
+
+.box-2{
+    width: 492.5px;
+}
+
+.box-3{
+    width: 238.75px;
+}
+
+.box-4{
+    width: 154.2px;
+}
+
+.box-5{
+    width: 661.6px;
+}
