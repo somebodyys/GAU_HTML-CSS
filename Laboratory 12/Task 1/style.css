@@ -1,0 +1,38 @@
+body{
+    background-image: url(editorial-illustration-by-spiros-halaris-3.jpg);
+}
+
+.conteiner{
+    width: 700px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.box{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(119, 180, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgb(47, 121, 47);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+}
+
+h1{
+
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
