@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+@keyframes circle {
+    25% {transform: translate(542px, 0px);}
+    50% {transform: translate(542px, 192px);}
+    75% {transform: translate(0px, 192px);}
+    100% {transform: translate(0px, 0px);}
+}
+.conteiner{
+    width: 600px;
+    height: 250px;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inner{
+    width: 550px;
+    height: 200px;
+    border: solid 2px black;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: solid 1px red;
+    background-color: green;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    animation-name: circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
