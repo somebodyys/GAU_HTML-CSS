@@ -1,0 +1,44 @@
+.conteiner{
+    width: 800px;
+    height: 250px;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+[class*="box"]{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box-1{
+    transform: skew(-20deg, -20deg);
+}
+
+.box-2{
+    transform: skew(20deg, -20deg);
+}
+
+.box-3{
+    transform: scale(1.2, 0.6);
+}
+
+.box-4{
+    transform: rotate(-60deg);
+}
+
+.box-5{
+    transform: rotate(60deg);
+}
+
+.box-6{
+    transform: rotate(90deg);
+}
