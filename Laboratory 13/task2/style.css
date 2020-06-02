@@ -1,0 +1,244 @@
+
+@font-face{
+    font-family: AkazanRg;
+    src: url(fonts/Akazan\ Rg.ttf);
+}
+
+@font-face{
+    font-family: AkazanBold;
+    src: url(fonts/Akazan\ Bold.ttf);
+}
+
+@font-face{
+    font-family: AkazanBoldItalic;
+    src: url(fonts/Akazan\ Bold\ Italic.ttf);
+}
+
+body{
+    margin: 0;
+}
+header{
+    width: inherit;
+    height: 150px;
+    background-color: #191919;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line{
+    width: inherit;
+    height: 8px;
+    background-color: #f57915;
+}
+
+
+
+[class*="logo_text"]{
+    font-size: 40px;
+}
+
+.logo_text-1{
+    font-family: AkazanRg;
+    color: white;
+}
+.logo_text-2{
+    font-family: AkazanBold;
+    color: #f57915;
+}
+
+.logo{
+    width: 300px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav div{
+    width: 100px;
+    font-size: 17px;
+    font-family: AkazanRg;
+    color: white;
+    border-right: solid 2px #f57915;
+    text-align: center;
+}
+
+
+.conteiner{
+    width: 1200px;
+    margin: auto;
+}
+
+.cover{
+    width: inherit;
+    height: 223px;
+    background-color: #3f3f3f;
+    background-image: url(photos/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: -100px -50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cover_text{
+    margin-right: 100px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text{
+    font-size: 30px;
+    color: white;
+    font-family: AkazanBoldItalic;
+}
+
+.list{
+    width: 270px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.items img{
+    height: inherit;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-family: AkazanRg;
+    color: #f57915;
+}
+
+.list div{
+    width: inherit;
+    height: 30px;
+}
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: inherit;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quick{
+    width: 300px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.quick_texts{
+    width: inherit;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    color: #3f3f3f;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.quick_texts img{
+    height: inherit;
+}
+
+.info{
+    width: 800px;
+    height: inherit;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.fast_nav{
+    width: 500px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fast_nav div{
+    width: 100px;
+    text-align: center;
+    border-right: solid 1px black;
+}
+
+.wrapper{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+footer{
+    width: inherit;
+    height: 70px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: Tahoma;
+    font-size: 10px;
+}
+
+h1{
+    font-family: AkazanRg;
+    font-size: 20px;
+    color: #3f3f3f;
+}
+
+h2{
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #f57915;
+    font-size: 10px ;
+}
+
+.main_text{
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #3f3f3f;
+}
+
+.news{
+    width: inherit;
+    min-height: 200px;
+    display: flex;
+}
+
+[class*="news-"]{
+    width: 350px;
+    min-height: 200px;
+    position: relative;
+}
+
+.news-1 img, .news-2 img{
+    width: inherit;
+    
+}
+.news-1{
+
+    margin-right: 20px;
+}
