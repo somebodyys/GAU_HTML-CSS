@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+header{
+    width: inherit;
+    height: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}    
+.note{
+    width: inherit;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #474747;
+}
+
+.contact{
+    margin-right: 300px;
+    width: 250px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact img{
+    height: inherit;
+}
+
+.wrapper{
+    height: 120px;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo div{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.logo_text{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+nav{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav div{
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav div:hover{
+    background-color: #f7c200;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+.cover{
+    width: inherit;
+    height: 400px;
+    background-image: url(Photos/cover1.jpg);
+    background-size: 90em;
+    background-position: 0px -300px;
+    background-repeat: no-repeat;
+}
+
+.content{
+    height: 600px;
+    width: inherit;
+}
+
+footer{
+    height: 50px;
+    width: inherit;
+    background-color: #474747;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data{
+    width: 800px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.policy{
+    height: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.icons{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icons img{
+    height: inherit;
+    margin-right: 8px;
+}
+
