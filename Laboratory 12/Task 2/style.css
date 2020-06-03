@@ -115,6 +115,7 @@ nav ul{
     align-items: center;
     flex-direction: column;
     background-color: #3a4a53;
+    border-radius: 3px;
 }
 
 .sub_sub{
@@ -143,23 +144,21 @@ nav ul{
     left: 40px;
     width: 200px;
     height: 150px;
-    background-color: #3a4a53;
+    background-color: #6b8696;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    border-radius: 3px;
 }
 
 .sub_list li:hover .sub_sub{
     display: block;
     position: absolute;
-    
-    top: 100px;
+    top: 70px;
     left: 170px;
-
-    width: 800px;
+    width: 230px;
     height: 150px;
-
 }
 
 
