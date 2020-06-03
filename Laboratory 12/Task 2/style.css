@@ -66,21 +66,100 @@ nav{
     align-items: center;
 }
 
-nav div{
-    width: 100px;
-    height: 40px;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
 }
 
-nav div:hover{
+.main_menu>li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    margin-right: 15px;
+    position: relative;
+}
+.sum_menu{
+    display: none;
+}
+
+.main_menu>li:hover{
     background-color: #f7c200;
     color: white;
     font-weight: bold;
     cursor: pointer;
     border-radius: 2px;
+}
+
+
+.main_menu>li:hover .sum_menu{
+    display: block;
+    position: absolute;
+    top:  30px;
+    left: 0px;
+    width: 200px;
+    height: 165px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.sub_list{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3a4a53;
+}
+
+.sub_sub{
+    display: none;
+    position: relative;
+}
+    
+.sub_list li{
+
+    width: 70%;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sub_list li:hover{
+    border-bottom: 2px solid #1e262b;
+}
+
+.sub_sub_list{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    width: 200px;
+    height: 150px;
+    background-color: #3a4a53;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub_list li:hover .sub_sub{
+    display: block;
+    position: absolute;
+    
+    top: 100px;
+    left: 170px;
+
+    width: 800px;
+    height: 150px;
+
 }
 
 
