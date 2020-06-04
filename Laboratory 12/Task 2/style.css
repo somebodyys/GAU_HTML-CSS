@@ -172,9 +172,177 @@ nav ul{
 }
 
 .content{
-    height: 600px;
+    width: inherit;
+    background-color: blue;
+}
+
+
+.content-1{
+    margin-top: 60px;
+    width: inherit;
+    height: 350px;
+    background-image: linear-gradient(to bottom, #ebebeb, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_inner_wrap-1{
+    width: 700px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_inner_wrap-2{
+    width: 700px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new{
+    width: 100%;
+    height: 25%;
+    border-bottom: solid 1px gray;
+    display: flex;
+}
+
+.news-box{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.calendar_date{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: gray;
+    font-size: 35px;
+}
+.calendar_month{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.calendar{
+    width: 30%;
+    height: 100%;
+}
+
+.news_text{
+    width: 65%;
+    height: 100%;
+}
+.box-heading{
+    width: 100%;
+    height: 55px;
+    margin-bottom: 10px;
+    color: #494949;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.trends{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+.ic{
+    width: 40px;
+    height: 40px;;
+}
+
+.ic img{
     width: inherit;
 }
+
+.ic-text{
+    width: 184px;
+    height: 40px;
+    background-color: #575757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.box{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+[class*="box-inner"]{
+    width: 100%;
+    height: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.box-inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    width: 135px;
+    height: 40px;
+}
+
+.numbering{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 2px;
+}
+.read-more{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #f6ba00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.read-more:hover{
+    box-shadow: inset 0px 0px 10px white;
+    cursor: pointer;
+}
+
+.content-2{
+    width: inherit;
+    height: 450px;
+    background-color: #15181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 footer{
     height: 50px;
@@ -186,7 +354,7 @@ footer{
 }
 
 .data{
-    width: 800px;
+    width: 700px;
     height: 35px;
     display: flex;
     align-items: center;
@@ -212,5 +380,57 @@ footer{
 .icons img{
     height: inherit;
     margin-right: 8px;
+}
+
+.user{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vlog{
+    width: 60%;
+    height: 100%;
+    
+}
+
+.person{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+.vlog-text{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.user img{
+    height: inherit;
+}
+
+.image_wrap{
+    height: 70px;
+    width: 35%;
+    overflow: hidden;
+    background-color: rebeccapurple;
+}
+
+.user_wrap{
+    width: 100%;
+    height: 79.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
 }
 
