@@ -1,0 +1,170 @@
+
+body{
+    margin: 0;
+}
+
+header{
+    width: inherit;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.space{
+    width: 50%;
+
+}
+
+.conteiner{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.nav1{
+    width: 5%;
+    height: 40%;
+    border: solid 2px gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav1:hover{
+    cursor: pointer;
+}
+
+.lines{
+    width: 60%;
+    height: 6%;
+    margin-bottom: 2px;
+    background-color: gray;
+}
+
+
+.name{
+    width: 85%;
+    height: 60%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.info{
+    width: 85%;
+    height: 60%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    width: 120px;
+    padding: 6px;
+    border-bottom: solid 2px gold;
+    box-sizing: border-box;
+    color: white;
+}
+.heading{
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px
+}
+
+select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.nav2{
+    display: none;
+}
+
+
+
+.content{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(photo/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+
+    .nav1{
+        display: none;
+    }
+
+    .nav2{
+        width: 60%;
+        height: 80%;
+        margin-right: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .button{
+        width: 20%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button:hover{
+        border-bottom: solid 1px gold;
+        cursor: pointer;
+    }
+
+    .space{
+        width: 10%;
+    }
+    
+
+    .info{
+        margin-left: 10px;
+        width: 30%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        flex-direction: row;
+    }
+}
