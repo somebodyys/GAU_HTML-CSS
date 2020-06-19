@@ -1,0 +1,143 @@
+.conteiner{
+    width: 70%;
+    height: 550px;
+    background-color: gray;
+    margin: auto;
+    display: fle;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+header div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrapper{
+    width: 90%;
+    height: 80%;
+    background-color: gray;
+    border-right: solid 2px blue;
+
+}
+.table_wrap{
+    width: 30%;
+    height: 80%;
+    display: none;
+
+}
+
+.wrapper a{
+    width: 100%;
+    text-decoration: none;
+}
+
+.wrapper a div{
+    border-bottom: solid 1px black;
+    height: 16.6%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.content{
+    width: 100%;
+    height: 330px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .conteiner{
+        width: 100%;
+    }
+    .content{
+        justify-content: flex-start;
+        height: 430px;
+        background-color: white;
+    }
+
+    .wrapper>div:hover .sub_menu{
+        display: flex;
+    }
+    .wrapper div:hover{
+        background-color: plum;
+    }
+    .sub_menu{
+        display: none;
+        width: 300px;
+        height: 200px;
+        background-color: blue;
+        position: absolute;
+        top: 200px;
+        left: 325px;
+    }
+
+    .table_wrap{
+        margin-left: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .wrapper{
+        margin-left: 50px;
+        width: 20%;
+        position: relative;
+        
+    }
+    body{
+        margin: 0;
+    }
+
+    table{
+        border-collapse: collapse;
+    }
+
+    header{
+        height: 50px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    header div{
+        margin-left: 20px;
+        padding: 5px;
+    }
+
+    header div:hover{
+        background-color: lightgray;
+        border-bottom: solid 3px green;
+        color: black;
+        cursor: pointer;
+    }
+
+    td{
+       width: 200px;
+       height: 90px;
+       background-color: white; 
+       border: solid 1px black;
+    }
+}

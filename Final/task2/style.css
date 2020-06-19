@@ -1,0 +1,63 @@
+@keyframes spin {
+   
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes grad{
+    to{
+        background-image: radial-gradient(red 5%, yellow, rgb(129, 129, 0));
+    }
+}
+
+.conteiner{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.gradient{
+    position: absolute;
+    top: 170px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: radial-gradient(red, yellow);
+    animation-name: grad;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+.object{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    border-right: solid 110px black;
+    border-top: solid 110px red;
+    border-left: solid 110px  blue;
+    border-bottom: solid 110px green;
+    background-color: lavenderblush;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+

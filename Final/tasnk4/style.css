@@ -1,0 +1,82 @@
+.conteiner{
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: gray 5px 5px 5px;
+}
+.text{
+    position: absolute;
+    right: 70px;
+    width: 300px;
+    height: 200px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrap{
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+[class*="icon"]{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.icon-1{
+    background-image: url(one.jpg);
+    background-size: 60px 60px;
+}
+
+.icon-3{
+    background-image: url(three.jpg);
+    background-size: 70px 70px;
+    background-position: -5px -5px;
+}
+
+.icon-2{
+    background-image: url(two.png);
+    background-size: 90px 60px;
+    background-position: -14px 0px;
+}
+.tag{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.picture{
+
+    position: absolute;
+    left: -150px;
+    width: 400px;
+    height: 400px;
+    transform: rotate(8deg);
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-position: 100px 0px;
+}
+
